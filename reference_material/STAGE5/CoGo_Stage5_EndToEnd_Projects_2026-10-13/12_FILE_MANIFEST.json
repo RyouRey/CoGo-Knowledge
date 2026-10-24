@@ -1,0 +1,128 @@
+{
+  "package": "CoGo Stage 5 End-to-End Projects",
+  "snapshot_date": "2026-10-13",
+  "files": [
+    {
+      "path": "00_README_STAGE5.md",
+      "bytes": 3582,
+      "sha256": "0addab4e560fe07aea18f861ec16d3800f70d42854fcc586f19f913de1432b00"
+    },
+    {
+      "path": "01_EVIDENCE_AND_VERSION_POLICY.md",
+      "bytes": 2566,
+      "sha256": "670ddf74c3877d379bd8f2a71b0fce63a589d6cb949f38dc8b714f6ff1e48ff0"
+    },
+    {
+      "path": "02_GENERAL_CO_GO_WORKFLOW.md",
+      "bytes": 3572,
+      "sha256": "df6a2bdb74f1e170a1c4bf5b12ebc7cce321d6f9ddc66bf00fcf4133ae45e9f6"
+    },
+    {
+      "path": "03_PROJECT_BLUEPRINTS.md",
+      "bytes": 1171,
+      "sha256": "cfdb3bf2a5431a798d70fb4b2a77e31d7e012750b0a5b01d5b1e0bc601a8731c"
+    },
+    {
+      "path": "04_BUILD_RUN_QUICKBUILD_AND_APK.md",
+      "bytes": 2395,
+      "sha256": "9d2ff12e641e54c122582ff7efacc2b289cf2308765b5a419942605b09360c84"
+    },
+    {
+      "path": "05_DEBUGGING_PLAYBOOK.md",
+      "bytes": 3801,
+      "sha256": "0cb62f96116e65978424d4b9c5f4d4c5d6763cee9630a605ad4a1c029af76e82"
+    },
+    {
+      "path": "06_TOOLCHAIN_MIGRATION.md",
+      "bytes": 1783,
+      "sha256": "6fbe7a88bb585baa4b474545f0201116a26588fdd2a026021fd906dba015cc7c"
+    },
+    {
+      "path": "07_AI_ASSISTANT_PROTOCOL.md",
+      "bytes": 3011,
+      "sha256": "d5082ff35f884a13f1f0c578b6bc9bf73ee452a4762094c572b24e5e681cebc8"
+    },
+    {
+      "path": "08_MANUAL_TEST_MATRIX.md",
+      "bytes": 3465,
+      "sha256": "3464d7f6340fa65fbe9488448aea69c9a4a9e0a8250851024d26c94943f897fd"
+    },
+    {
+      "path": "09_SOURCE_MANIFEST.md",
+      "bytes": 2818,
+      "sha256": "f136b364163d58bba5764e3e2aa80c8a64600a8d78277123b783e4fb9ed98419"
+    },
+    {
+      "path": "10_STAGE6_BACKLOG.md",
+      "bytes": 2174,
+      "sha256": "aed99271e5792f26bd0e4e2b77b4e9c8f472addefe9d20bb0223fe1d4d9c8548"
+    },
+    {
+      "path": "11_IMPLEMENTATION_KNOWLEDGE_DATASET.jsonl",
+      "bytes": 25039,
+      "sha256": "e97b6f16aebe654e089da82dfd9bf195a9848e8ba0054cef060918c9d3560304"
+    },
+    {
+      "path": "evidence/EVIDENCE_LEDGER.md",
+      "bytes": 1514,
+      "sha256": "65ad91d00f4dfc0df19d4661ded51b9c7307f91741e868737effd80725f1841e"
+    },
+    {
+      "path": "projects/01_Kotlin_XML_UnitConverter/MainActivity.kt",
+      "bytes": 1181,
+      "sha256": "6dee9a26c4246ea5e51380679db6bdd4aae09b92ab82cca16ba45bfe1bfc0045"
+    },
+    {
+      "path": "projects/01_Kotlin_XML_UnitConverter/README.md",
+      "bytes": 1044,
+      "sha256": "320de5b549fd14033bf9a790968ab444fcda9c6493847a0e178c02ca8cb3a420"
+    },
+    {
+      "path": "projects/01_Kotlin_XML_UnitConverter/activity_main.xml",
+      "bytes": 1240,
+      "sha256": "dc974c3eccef931e0e64c8d03526b34dac419c079b99f5bbb49360f79c8f6e53"
+    },
+    {
+      "path": "projects/02_Java_XML_QuickNotes/MainActivity.java",
+      "bytes": 1570,
+      "sha256": "0290de19b940d6d740736765756cfd4682bf0cd9ed50efde60a0bf7fd19d3220"
+    },
+    {
+      "path": "projects/02_Java_XML_QuickNotes/README.md",
+      "bytes": 967,
+      "sha256": "c228b696e431ea8222e7005ce97a293a66604c5b4724f6ab545e42eed0447aab"
+    },
+    {
+      "path": "projects/02_Java_XML_QuickNotes/activity_main.xml",
+      "bytes": 1600,
+      "sha256": "5f71b78550345719f4d96dc03ce7cabae581291dea926f3f0b29e755e05328ce"
+    },
+    {
+      "path": "projects/03_Kotlin_Compose_Counter/MainActivity.kt",
+      "bytes": 2152,
+      "sha256": "6bc03e88779cafec592f485f4dc43ef943dcb180a08a9e5ce84639d0a719086d"
+    },
+    {
+      "path": "projects/03_Kotlin_Compose_Counter/README.md",
+      "bytes": 944,
+      "sha256": "1e2a3ad6ac3852f02ab9192061838ae086bc42b8e97103a03c674df5261072bb"
+    },
+    {
+      "path": "tests/05_EVIDENCE_CAPTURE_TEMPLATE.md",
+      "bytes": 1314,
+      "sha256": "a1ddff912be91cd7355efbf1f621418e27ba1a0fdf4e8fa275c24b7ac72e4d5b"
+    },
+    {
+      "path": "tests/06_BLUEPRINT_FILE_MAP.md",
+      "bytes": 1539,
+      "sha256": "048e1918be58894bf1e794c6ba1749d6004c88909b6b05c17f0e7eb6f215b9cf"
+    },
+    {
+      "path": "tests/07_KNOWLEDGE_QA.md",
+      "bytes": 1327,
+      "sha256": "d24435d819aeff793c26c5d132488f49ee15a1a83ccdf98017d1bb62f69a2228"
+    }
+  ],
+  "dataset_records": 40,
+  "verification_note": "No Android build or device execution was performed by this research run."
+}
