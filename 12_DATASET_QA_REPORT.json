@@ -1,0 +1,38 @@
+{
+  "snapshot_date": "2026-10-13",
+  "source_stage_dataset_counts": {
+    "stage1": {
+      "path": "reference_material/STAGE1/CodeOnTheGo_Knowledge_Pack/09_AI_KNOWLEDGE_DATASET.jsonl",
+      "records": 25
+    },
+    "stage2": {
+      "path": "reference_material/STAGE2/CodeOnTheGo_Research_Pack_Stage2/10_AI_KNOWLEDGE_DATASET.jsonl",
+      "records": 43
+    },
+    "stage3": {
+      "path": "reference_material/STAGE3/CodeOnTheGo_Research_Pack_Stage3/08_IMPLEMENTATION_DATASET.jsonl",
+      "records": 20
+    },
+    "stage4": {
+      "path": "reference_material/STAGE4/CoGo_App_Development_Knowledge_Stage4_2026-10-13/13_IMPLEMENTATION_KNOWLEDGE_DATASET.jsonl",
+      "records": 56
+    },
+    "stage5": {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/11_IMPLEMENTATION_KNOWLEDGE_DATASET.jsonl",
+      "records": 40
+    }
+  },
+  "source_record_total": 184,
+  "canonical_record_total_after_exact_deduplication": 184,
+  "exact_duplicates_merged": 0,
+  "duplicate_origin_ids": [],
+  "source_jsonl_parse_errors": 0,
+  "master_jsonl_parse_errors": 0,
+  "scope_note": "Dataset syntax/structure checked. This does not mean every claim is independently true or every code sample has been built on a phone.",
+  "unresolved_critical_limitations": [
+    "No physical-device build/install/run was performed for the Stage 5 sample apps.",
+    "Stage 6 was planned as a separate validation stage but was not produced as a separate executed research package before the user's request to finalize at Stage 7.",
+    "Official release notes identify 26.41 as current at the snapshot, while the public GitHub release list shows numbered tag 26.40; user-facing claims and source-code claims therefore have different provenance.",
+    "The June 2026 compatibility discussion predates the 26.38 toolchain upgrade and must not be used as the sole authority for current Kotlin/AGP limits."
+  ]
+}
