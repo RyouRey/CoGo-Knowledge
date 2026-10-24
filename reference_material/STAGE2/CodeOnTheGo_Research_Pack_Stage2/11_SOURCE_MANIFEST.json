@@ -1,0 +1,26 @@
+{
+  "title": "Code On The Go Research Pack Stage 2",
+  "research_snapshot": "2026-10-13",
+  "scope": "Source-aware subsystem research based on official product pages and selected public GitHub docs/source files",
+  "repository": "https://github.com/appdevforall/CodeOnTheGo",
+  "primary_ref": "stage",
+  "release_reference": "26.40",
+  "source_blob_shas": {
+    "ARCHITECTURE.md": "fd60cebe407ede4a6adb43264135354fdd7c887a",
+    "settings.gradle.kts": "406b51f2d24324f485e9be006da23aff1e4f6a23",
+    "gradle/libs.versions.toml": "def9994279d2880731c18838cb14311653b2d161"
+  },
+  "dataset_records": 43,
+  "evidence_policy": [
+    "directly_documented",
+    "source-indexed",
+    "analysis",
+    "needs_verification"
+  ],
+  "limitations": [
+    "Not a full source-code audit",
+    "No claim of complete file/class/commit coverage",
+    "Stage may contain unreleased features",
+    "Version-sensitive facts must be rechecked against pinned release tags"
+  ]
+}
