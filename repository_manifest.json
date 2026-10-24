@@ -6,7 +6,7 @@
   "research_snapshot_date": "2026-10-13",
   "original_stage7_manifest": "13_FINAL_PACKAGE_MANIFEST.json",
   "manifest_excludes_self": true,
-  "file_count": 113,
+  "file_count": 114,
   "files": [
     {
       "path": ".github/workflows/quality-checks.yml",
@@ -565,13 +565,18 @@
     },
     {
       "path": "scripts/validate_repository.py",
-      "bytes": 4288,
-      "sha256": "8bec3b95b576d831d46c5912fb77ea383a4bd8fed3c256db5914b911d4cc045c"
+      "bytes": 7898,
+      "sha256": "250f4a499e19d693f7cbf534afed1f58590f20be821e228222753fbeadcecd65"
     },
     {
       "path": "tests/test_validate_dataset.py",
       "bytes": 2726,
       "sha256": "d0afa03435b62ea4494a9111b3de583581b34474f8fe34083832747b239a4bcd"
+    },
+    {
+      "path": "tests/test_validate_repository.py",
+      "bytes": 2867,
+      "sha256": "2e901ecef4d3d0ad3c2d66ac254fbfdb442c398c4901bdd0fb3a4ab607d2a51d"
     }
   ],
   "notes": [
