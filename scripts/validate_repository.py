@@ -18,6 +18,72 @@ def sha256_file(path: Path) -> str:
             digest.update(chunk)
     return digest.hexdigest()
 
+
+def validate_repository_manifest(root: Path, manifest_path: Path) -> tuple[list[str], list[str]]:
+    """Validate the current repository inventory independently of the historical Stage 7 manifest."""
+    errors: list[str] = []
+    info: list[str] = []
+    try:
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    except Exception as exc:
+        return [f"Could not parse repository manifest: {exc}"], info
+
+    if manifest.get("repository") != "RyouRey/CoGo-Knowledge":
+        errors.append("Repository manifest has an unexpected repository identifier")
+    if manifest.get("manifest_excludes_self") is not True:
+        errors.append("Repository manifest must explicitly exclude itself from its inventory")
+
+    entries = manifest.get("files")
+    if not isinstance(entries, list):
+        return errors + ["Repository manifest 'files' must be a list"], info
+    declared_count = manifest.get("file_count")
+    if declared_count != len(entries):
+        errors.append(f"Repository manifest file_count mismatch (declared {declared_count}, entries {len(entries)})")
+
+    listed: set[str] = set()
+    for entry in entries:
+        if not isinstance(entry, dict):
+            errors.append("Repository manifest contains a non-object file entry")
+            continue
+        rel = entry.get("path")
+        if not isinstance(rel, str) or not rel or Path(rel).is_absolute() or ".." in Path(rel).parts:
+            errors.append(f"Repository manifest contains an unsafe/invalid path: {rel!r}")
+            continue
+        normalized = Path(rel).as_posix()
+        if normalized in listed:
+            errors.append(f"Repository manifest contains duplicate path: {normalized}")
+            continue
+        listed.add(normalized)
+        target = root / normalized
+        if not target.is_file():
+            errors.append(f"Repository manifest file is missing: {normalized}")
+            continue
+        expected_size = entry.get("bytes")
+        actual_size = target.stat().st_size
+        if expected_size != actual_size:
+            errors.append(f"Repository manifest size mismatch: {normalized} (expected {expected_size}, got {actual_size})")
+        expected_sha = entry.get("sha256")
+        actual_sha = sha256_file(target)
+        if expected_sha != actual_sha:
+            errors.append(f"Repository manifest SHA-256 mismatch: {normalized}")
+
+    excluded_parts = {".git", ".venv", "venv", "__pycache__", ".pytest_cache"}
+    actual_paths = {
+        path.relative_to(root).as_posix()
+        for path in root.rglob("*")
+        if path.is_file()
+        and path != manifest_path
+        and not any(part in excluded_parts for part in path.relative_to(root).parts)
+    }
+    missing_entries = sorted(actual_paths - listed)
+    stale_entries = sorted(listed - actual_paths)
+    if missing_entries:
+        errors.append("Repository manifest omits files: " + ", ".join(missing_entries))
+    if stale_entries:
+        errors.append("Repository manifest lists files not in the current tree: " + ", ".join(stale_entries))
+    info.append(f"Current repository manifest checked: {len(listed)} entries")
+    return errors, info
+
 def main() -> int:
     errors: list[str] = []
     warnings: list[str] = []
@@ -45,6 +111,15 @@ def main() -> int:
         except Exception as exc:
             errors.append(f"Invalid JSON file {path.relative_to(ROOT).as_posix()}: {exc}")
     info.append("JSON metadata syntax checked")
+
+    # Current repository inventory includes maintenance files and is distinct from Stage 7.
+    current_manifest = ROOT / "repository_manifest.json"
+    if current_manifest.exists():
+        manifest_errors, manifest_info = validate_repository_manifest(ROOT, current_manifest)
+        errors.extend(manifest_errors)
+        info.extend(manifest_info)
+    else:
+        errors.append("Current repository manifest is missing: repository_manifest.json")
 
     # Historical Stage 7 manifest is immutable evidence for the original package.
     manifest_path = ROOT / "13_FINAL_PACKAGE_MANIFEST.json"
