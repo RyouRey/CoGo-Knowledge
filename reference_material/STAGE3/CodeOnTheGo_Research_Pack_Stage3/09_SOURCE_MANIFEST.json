@@ -1,0 +1,29 @@
+{
+  "title": "Code On The Go Research Pack Stage 3",
+  "research_snapshot": "2026-10-13",
+  "repository": "appdevforall/CodeOnTheGo",
+  "release_tag": "26.40",
+  "release_commit": "2b0b6cdd10fb9af948aa989b46e07054f65f292b",
+  "release_published_at": "2026-09-29T19:36:33Z",
+  "source_files": {
+    "ARCHITECTURE.md": "8706f7553ea4b43bff78bf224feb4ba2668fdeb8",
+    "settings.gradle.kts": "3d781b0f9eccf511303bbe7047cdb38435fe4676",
+    "gradle/libs.versions.toml": "a0d5ac5e88444344f0481490f5a74fda55a65e28",
+    "app/src/main/java/com/itsaky/androidide/models/DeepLinkRequest.kt": "53d312cf2024b066d4e2431b905e82867ec6c746",
+    "app/src/main/java/com/itsaky/androidide/activities/DeepLinkActivity.kt": "b5ead707b035cb8204cbd12f2c63edfa2eddf0e1",
+    "app/src/test/java/com/itsaky/androidide/models/DeepLinkRequestTest.kt": "af7ec4db8f3f83bebcaa7062fed18a33593de177",
+    "common/src/test/java/com/itsaky/androidide/utils/PathTraversalTest.kt": "1d33d6fae5a3fa566138fa0623d0a07b14088857",
+    "plugin-api/src/main/kotlin/com/itsaky/androidide/plugins/IPlugin.kt": "c54581cc1f6f777ce9ecc137dea3517dcccd17ef",
+    "plugin-manager/src/main/kotlin/com/itsaky/androidide/plugins/manager/loaders/PluginLoader.kt": "7db58f76cfe33b67c69bf99f4eda7402d2471a91",
+    "plugin-manager/src/main/kotlin/com/itsaky/androidide/plugins/manager/core/PluginManager.kt": "bcd2d84d6603a7a907fd05d996600b944296b77f",
+    "app/src/main/java/com/itsaky/androidide/services/builder/GradleBuildService.kt": "121356f0cc5a4772acade7944cf3bbbba6542ef5",
+    "docs/PLUGIN_API_CHANGELOG.md": "9b79639203ce8d566c51d799be740d1b6aea6475",
+    "docs/PLUGIN_AUTHORING.md": "4a2bbeca71fb9575fce2a14b989ae3428f11d771"
+  },
+  "limitations": [
+    "Not a complete source audit",
+    "Tests inspected but not executed",
+    "Some implementation branches remain to be traced",
+    "No formal security audit"
+  ]
+}
