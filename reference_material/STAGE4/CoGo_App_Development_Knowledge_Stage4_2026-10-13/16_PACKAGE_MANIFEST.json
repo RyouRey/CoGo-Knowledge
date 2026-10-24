@@ -1,0 +1,100 @@
+{
+  "package": "CoGo App Development Knowledge Base — Stage 4",
+  "snapshot_date": "2026-10-13",
+  "scope": "Creating and developing Android apps using CoGo as an Android IDE; not modifying CoGo itself.",
+  "current_release_observed": "26.41 (official release notes dated 2026-10-06)",
+  "pinned_source_baseline_from_prior_stage": "26.40 (repository tag; use only as a versioned source reference)",
+  "files": [
+    {
+      "name": "00_README_STAGE4.md",
+      "bytes": 4853,
+      "sha256": "5df3f7c1bfcc4a0c79c55aa6aabf524f3dbc760ea8209abd41cc175f94e949cc"
+    },
+    {
+      "name": "01_AI_ASSISTANT_PROTOCOL.md",
+      "bytes": 4383,
+      "sha256": "ae31d23d73d677b54ebb3803e50e25979ee41dfcfd5d2bb3c8befa00baa1ebd8"
+    },
+    {
+      "name": "02_PROJECT_CREATION_DECISION_GUIDE.md",
+      "bytes": 5331,
+      "sha256": "a5b440b8f9b9b724e2ba9be713f6161ef0c852b5090a47b82f79da5a0d90a5ef"
+    },
+    {
+      "name": "03_ANDROID_PROJECT_FILE_MAP.md",
+      "bytes": 5076,
+      "sha256": "6a1a06e8f7f68ca8ce79b4580eab9d2d7753af06cdfe0e646f7e0ca424c0a54c"
+    },
+    {
+      "name": "04_BUILD_TOOLCHAIN_COMPATIBILITY.md",
+      "bytes": 4159,
+      "sha256": "5cb9c1f695aa59ed9a41d47ac60f1bf2e335660d0c60703ef17dd33a00bf5da2"
+    },
+    {
+      "name": "05_BUILD_RUN_TASKS_APK.md",
+      "bytes": 4508,
+      "sha256": "b4fd37d9fb14493714e48ccd999bcda26bb3fb475a1d218adb993c3a66eaf7f2"
+    },
+    {
+      "name": "06_UI_XML_VS_COMPOSE.md",
+      "bytes": 3177,
+      "sha256": "058c28f3f741854e1991f4daafb6faca01f6b920c96fc18e541e029e60dc31cf"
+    },
+    {
+      "name": "07_DEBUGGING_AND_ERROR_TRIAGE.md",
+      "bytes": 4574,
+      "sha256": "5183cc65b179df6d531300d02acf065481bec3ad5549a211f8b8aeec86f5e5df"
+    },
+    {
+      "name": "08_FEATURE_IMPLEMENTATION_PLAYBOOK.md",
+      "bytes": 4539,
+      "sha256": "b93ef728fc9620032bdcb97db117b0257a96944344ad2cf41bcf98cfeba81acd"
+    },
+    {
+      "name": "09_RELEASE_SIGNING_AND_DELIVERY.md",
+      "bytes": 2820,
+      "sha256": "e2566b6beac766d94ac890d82cf39cd878d5ae48750ebf03096de9d1592c918e"
+    },
+    {
+      "name": "10_REFERENCE_WORKFLOW_PROMPT.md",
+      "bytes": 2230,
+      "sha256": "87743143288e1c4cf0b5f30aadea089079ac3bcb02fa455d869f80e73ba4c17b"
+    },
+    {
+      "name": "11_REGRESSION_AND_ACCEPTANCE_MATRIX.md",
+      "bytes": 3613,
+      "sha256": "c5926e1d248cafd1dfcbb96cde80ad63d1819cba1f4da07232c4851d1dff1e0d"
+    },
+    {
+      "name": "12_SOURCE_REGISTER.md",
+      "bytes": 5424,
+      "sha256": "9e9c01b558a0a3d6da30c8b95885f6bdfea977c9c6fe038c048ce387b68a4761"
+    },
+    {
+      "name": "13_IMPLEMENTATION_KNOWLEDGE_DATASET.jsonl",
+      "bytes": 27567,
+      "sha256": "e2b7f4af95620da0cf292c11d05addaad4803ff332f184335f9e45c205e1133d"
+    },
+    {
+      "name": "14_RESEARCH_BACKLOG.md",
+      "bytes": 2620,
+      "sha256": "a8806067582adb8f580b28601df17897c2f3d3562a08e3dc8b7a7e90a172dfb1"
+    },
+    {
+      "name": "15_CHANGELOG_AND_SCOPE.md",
+      "bytes": 1460,
+      "sha256": "4394a015e395de811cd7e5ec7b561335b37b014463d958a907cf4fa9e7f6f296"
+    },
+    {
+      "name": "17_END_TO_END_EXAMPLE_WEIGHT_CONVERTER.md",
+      "bytes": 4470,
+      "sha256": "1356f8e7f53859aecd0c4a2715bbc4a45f2d1bf652023faaebd5dbefb5eb5eb2"
+    }
+  ],
+  "dataset_records": 56,
+  "limitations": [
+    "No physical-device build or test was executed in this research stage.",
+    "Some user-facing details may change after the snapshot date.",
+    "Generic Android recommendations are derived guidance and must be checked against the actual project."
+  ]
+}
