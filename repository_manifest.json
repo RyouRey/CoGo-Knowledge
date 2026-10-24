@@ -1,0 +1,581 @@
+{
+  "repository": "RyouRey/CoGo-Knowledge",
+  "edition": "repository-focused",
+  "manifest_version": 1,
+  "generated_on": "2026-10-24",
+  "research_snapshot_date": "2026-10-13",
+  "original_stage7_manifest": "13_FINAL_PACKAGE_MANIFEST.json",
+  "manifest_excludes_self": true,
+  "file_count": 113,
+  "files": [
+    {
+      "path": ".github/workflows/quality-checks.yml",
+      "bytes": 552,
+      "sha256": "0e2ff0a684fc42e63e5a8d1c40b146b37fd979515ffbe7b4501db1e42ab29a83"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 90,
+      "sha256": "dad5817ef0f7a6bdb9d70672436f4f4fd5b30d82591d652a4ecc82d72069d996"
+    },
+    {
+      "path": "00_FINAL_README.md",
+      "bytes": 2544,
+      "sha256": "74abad796d41d9c2920a5515c37e3714bc8173a6885ce3f8d4e4e6620bda2062"
+    },
+    {
+      "path": "01_MASTER_INDEX.md",
+      "bytes": 2857,
+      "sha256": "ea09970aa955a996c32de1e7b72fd73542761343619c3e07ef338e8e1d27f125"
+    },
+    {
+      "path": "02_AI_ASSISTANT_OPERATIONAL_PLAYBOOK.md",
+      "bytes": 5016,
+      "sha256": "c08eb21ee77b1a69ceba15436f087d5f1cda07dd9b8041439e117304c0dca45f"
+    },
+    {
+      "path": "03_PROJECT_CREATION_DECISION_TREE.md",
+      "bytes": 3514,
+      "sha256": "47e0f092ae4b3c71abe583e98cf07af5fed79d459e11e677abffc9e911499774"
+    },
+    {
+      "path": "04_VERSION_COMPATIBILITY_AND_MIGRATION.md",
+      "bytes": 2842,
+      "sha256": "341c922df4c99c3e5d7e21d1c709b194f13b5c8517abec6c465c8d5fcd086690"
+    },
+    {
+      "path": "05_BUILD_DEBUG_AND_RELEASE_PLAYBOOK.md",
+      "bytes": 3362,
+      "sha256": "a9a9d38f57d8d1ffe0f2b666d4dec15b2c9035a6ad990813b43384ac4ee1bacd"
+    },
+    {
+      "path": "06_EVIDENCE_PROVENANCE_AND_CONFIDENCE.md",
+      "bytes": 2146,
+      "sha256": "ba8cab12d94152900000fb15cc76572d31a8d952404bf0b6ff4a6e5cea827351"
+    },
+    {
+      "path": "07_ACCEPTANCE_TESTS_AND_KNOWN_GAPS.md",
+      "bytes": 1990,
+      "sha256": "1db4dde997ccb069df6b3d47a380f48b6f1611dfaa266fc4b323e0731e90390e"
+    },
+    {
+      "path": "08_FINAL_AI_PROMPT_TEMPLATE.md",
+      "bytes": 1691,
+      "sha256": "1606ec52486eb54d84bbc16f4b0c81953f6b9211acd242dd3d667e965f6983fd"
+    },
+    {
+      "path": "09_SOURCE_REGISTER.md",
+      "bytes": 2495,
+      "sha256": "8ae446d8cf28fe1e1497bc4fe6c41454b26b1035ee7c0ed12ec07d98d286c6da"
+    },
+    {
+      "path": "11_MASTER_KNOWLEDGE_DATASET.jsonl",
+      "bytes": 246495,
+      "sha256": "350dc2fddd7b32e6cf20d02b8b1d750abe9f6b61088ea3c16b85baeb50d09f24"
+    },
+    {
+      "path": "12_DATASET_QA_REPORT.json",
+      "bytes": 1908,
+      "sha256": "6c232dcbbde32926b273cc142e697c115d688cf95c57344b56167afe50c5752c"
+    },
+    {
+      "path": "13_FINAL_PACKAGE_MANIFEST.json",
+      "bytes": 22263,
+      "sha256": "805e6a61299a342782516976fa8c468aa9c5f844a42dd8dfb25a8b2c68b4bb22"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 879,
+      "sha256": "b2a39d3d8bc942233d0929a4bac98a153068f7dbd23d67b80bffd0998e757b65"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 2532,
+      "sha256": "3daf3fe8b75a4ced1e89820c1a36638021392d7ddbaab682f1bd5c52298ac8c1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6068,
+      "sha256": "bc4e178eb20aa4f6a3d1e21c7a13169cbe66fbbada18bd536a7ef51beb946807"
+    },
+    {
+      "path": "docs/DATASET_SCHEMA.md",
+      "bytes": 3567,
+      "sha256": "361364b16d888c7954002272c262deab1f2043ee138cbc25dfbb95da9cf802cd"
+    },
+    {
+      "path": "docs/KNOWN_ISSUES.md",
+      "bytes": 1814,
+      "sha256": "71c30a16ec874e4ca8c2846eb4391e9c8103e678f55dd899c0da1e8fb037686e"
+    },
+    {
+      "path": "docs/LICENSE_AND_ATTRIBUTION.md",
+      "bytes": 816,
+      "sha256": "19dddc3fd003d28845edc0c1a8ef256ea5bdd5e897b75d4aa5b171dd57e403e6"
+    },
+    {
+      "path": "docs/MAINTENANCE.md",
+      "bytes": 1997,
+      "sha256": "ca34bff2d9d7bd10138b1123e1ccd6469867621df3c4ce758630664cb0872976"
+    },
+    {
+      "path": "docs/REBUILD_SCOPE.md",
+      "bytes": 1661,
+      "sha256": "72aa1f29e742f7f4000e1d2d024ec80838b4a0837afd48807d448d23d079e0cb"
+    },
+    {
+      "path": "docs/REPOSITORY_LAYOUT.md",
+      "bytes": 1944,
+      "sha256": "d11b56dfba7224248018e99b1fa6df20e3d52d5817fd4179c6088de876b41f0c"
+    },
+    {
+      "path": "prior_stages/CoGo_App_Development_Knowledge_Stage4_2026-10-13.zip",
+      "bytes": 42567,
+      "sha256": "5c71aa01b2498b7f9b102f460f3dc6368a1febb57f9ffc1a55614a11f78fcc43"
+    },
+    {
+      "path": "prior_stages/CoGo_Stage5_EndToEnd_Projects_2026-10-13.zip",
+      "bytes": 34572,
+      "sha256": "6c33607b4ca36468723eb2002b56d77c5d57cd3cdcdd4947a0996de7ca00fc7d"
+    },
+    {
+      "path": "prior_stages/CodeOnTheGo_Knowledge_Pack_2026-10-13.zip",
+      "bytes": 28297,
+      "sha256": "655fdb35e1e5e6514bb2bd948c08eed6e0dc86bb04cb07753e5d05b936d9619b"
+    },
+    {
+      "path": "prior_stages/CodeOnTheGo_Research_Pack_Stage2_2026-10-13.zip",
+      "bytes": 31863,
+      "sha256": "ac403ed6d2ad26b9e384d67df4e7072d16d395384e96a63b64b7a1b7cfb3d9e2"
+    },
+    {
+      "path": "prior_stages/CodeOnTheGo_Research_Pack_Stage3_2026-10-13.zip",
+      "bytes": 19541,
+      "sha256": "f7c285f51d952d440dbc80621108988f4160f1e3e65e2ec01d5d9f1ccc3704b2"
+    },
+    {
+      "path": "reference_material/STAGE1/CodeOnTheGo_Knowledge_Pack/00_INDEX_AND_SCOPE.md",
+      "bytes": 2667,
+      "sha256": "99f79fda148be255a2dd4ee3d0b4b725fde9d10a31640c8b9fd4a7be8b2d56c4"
+    },
+    {
+      "path": "reference_material/STAGE1/CodeOnTheGo_Knowledge_Pack/01_PRODUCT_OVERVIEW.md",
+      "bytes": 5996,
+      "sha256": "2a63b818975a7ae3f7366cb9df3009d81760b072c64dbffcd8d7a489a85c3e85"
+    },
+    {
+      "path": "reference_material/STAGE1/CodeOnTheGo_Knowledge_Pack/02_ARCHITECTURE_AND_MODULES.md",
+      "bytes": 7155,
+      "sha256": "7a384df26180639223b3e4d11720b8d2c3f66e52645f6746124c8cbd23222f12"
+    },
+    {
+      "path": "reference_material/STAGE1/CodeOnTheGo_Knowledge_Pack/03_BUILD_TOOLCHAIN_AND_COMPATIBILITY.md",
+      "bytes": 6447,
+      "sha256": "4430b0196994209b4bc546e8f424f7546886bdb850228994b4c672e60747c078"
+    },
+    {
+      "path": "reference_material/STAGE1/CodeOnTheGo_Knowledge_Pack/04_EDITOR_LANGUAGE_AND_UI_TOOLING.md",
+      "bytes": 4537,
+      "sha256": "90f58fbc58a685176bb9ec155be743173c6849155931fcc6deb8985384e3d0ae"
+    },
+    {
+      "path": "reference_material/STAGE1/CodeOnTheGo_Knowledge_Pack/05_PLUGINS_AND_ADDONS.md",
+      "bytes": 5251,
+      "sha256": "34d50b663b8f2d58a272822ace1b764fc0080e5c4d70ba1be623faf77225c575"
+    },
+    {
+      "path": "reference_material/STAGE1/CodeOnTheGo_Knowledge_Pack/06_AI_GIT_OFFLINE_AND_SECURITY.md",
+      "bytes": 5480,
+      "sha256": "9c9256c1122eed806b6427ad1ebbbbd39462c8d044dbcfb31ae02757034cdd1d"
+    },
+    {
+      "path": "reference_material/STAGE1/CodeOnTheGo_Knowledge_Pack/07_DEVELOPMENT_WORKFLOW_AND_TROUBLESHOOTING.md",
+      "bytes": 5550,
+      "sha256": "7fb00f39c5e4a9081cc8b29bff090dd60597137c6a9ecd9c03e2decf7019560b"
+    },
+    {
+      "path": "reference_material/STAGE1/CodeOnTheGo_Knowledge_Pack/08_REPOSITORY_MAP_AND_RESEARCH_NOTES.md",
+      "bytes": 5391,
+      "sha256": "7f62737dd7b744ec7f084b6214c432b0cf49e05753e7414197e4f64c2f6dbde7"
+    },
+    {
+      "path": "reference_material/STAGE1/CodeOnTheGo_Knowledge_Pack/09_AI_KNOWLEDGE_DATASET.jsonl",
+      "bytes": 9290,
+      "sha256": "cfddceba81bb6ccce8d63dca02a9de2b3f45ad79fab79b752cc3428f0f3ba6f6"
+    },
+    {
+      "path": "reference_material/STAGE1/CodeOnTheGo_Knowledge_Pack/README.md",
+      "bytes": 521,
+      "sha256": "7abc6e9922b9abf86b57cb1996ada6ee8ec8bd29ce090ef5662ae78ed0b75164"
+    },
+    {
+      "path": "reference_material/STAGE1/CodeOnTheGo_Knowledge_Pack/SOURCES.md",
+      "bytes": 1982,
+      "sha256": "e6093f2cccadea42378a9abd141d23603cacff4551a36e628b57875b69973338"
+    },
+    {
+      "path": "reference_material/STAGE2/CodeOnTheGo_Research_Pack_Stage2/00_README_AND_RESEARCH_METHOD.md",
+      "bytes": 3328,
+      "sha256": "e5d6d41597d3b31db6aa884ef7ae14654a57cfd5ad77e5e5f9772bb208f72c0b"
+    },
+    {
+      "path": "reference_material/STAGE2/CodeOnTheGo_Research_Pack_Stage2/01_SOURCE_TREE_AND_MODULE_CATALOG.md",
+      "bytes": 7931,
+      "sha256": "68d66b02d5a42aeb1057491b0ff128c70fb58ed09442ad43113e5a3ed2bcc646"
+    },
+    {
+      "path": "reference_material/STAGE2/CodeOnTheGo_Research_Pack_Stage2/02_ARCHITECTURE_AND_DATA_FLOW.md",
+      "bytes": 5820,
+      "sha256": "68cb871f28365483aa2a9d675d9dc7773555dfdd4a7be4cfaef355c09c9c2534"
+    },
+    {
+      "path": "reference_material/STAGE2/CodeOnTheGo_Research_Pack_Stage2/03_BUILD_PIPELINE_AND_TOOLCHAIN.md",
+      "bytes": 6188,
+      "sha256": "e6f27a5f021e58a9514ee686a9464ee73f11cd8338912ee394b80acc1d24429b"
+    },
+    {
+      "path": "reference_material/STAGE2/CodeOnTheGo_Research_Pack_Stage2/04_PLUGIN_RUNTIME_AND_AUTHORING.md",
+      "bytes": 5698,
+      "sha256": "096a63066347a62457899553e9f095b4d0ea12fee0a5cf43034ac3ea10a26cb8"
+    },
+    {
+      "path": "reference_material/STAGE2/CodeOnTheGo_Research_Pack_Stage2/05_AI_BACKENDS_AND_AGENT_TOOLS.md",
+      "bytes": 5358,
+      "sha256": "6d0348cf216ae7bf0cbe6b33b66dfb7163e1d2f15da5dadb1181d34bd459e1bd"
+    },
+    {
+      "path": "reference_material/STAGE2/CodeOnTheGo_Research_Pack_Stage2/06_EDITOR_LSP_UI_AND_DEBUGGING.md",
+      "bytes": 3831,
+      "sha256": "7155fab91dcd91fd36931baa8d6f33239109df180020dcea11d3a65df9c7493a"
+    },
+    {
+      "path": "reference_material/STAGE2/CodeOnTheGo_Research_Pack_Stage2/07_TESTING_CI_SECURITY_AND_RELIABILITY.md",
+      "bytes": 4442,
+      "sha256": "ef5f423e53353a5a9e058290f3aa8334e7e241d7070db33c1b2b39b398ee49dc"
+    },
+    {
+      "path": "reference_material/STAGE2/CodeOnTheGo_Research_Pack_Stage2/08_AI_RETRIEVAL_SCHEMA_AND_EVALUATION.md",
+      "bytes": 3862,
+      "sha256": "c845baa90d17f5ce75ccda90e7c161dd67efe8643427021f605a142f0eec2ee6"
+    },
+    {
+      "path": "reference_material/STAGE2/CodeOnTheGo_Research_Pack_Stage2/09_RESEARCH_BACKLOG_AND_CONFIDENCE.md",
+      "bytes": 3560,
+      "sha256": "f9870b6c5cc9179534be743f94bbc521d5a6f9df4bbc9fd7f23677854babdb7c"
+    },
+    {
+      "path": "reference_material/STAGE2/CodeOnTheGo_Research_Pack_Stage2/10_AI_KNOWLEDGE_DATASET.jsonl",
+      "bytes": 22287,
+      "sha256": "706e1155870e9b339bc4307c1be0e30f57437388d462a271558fba2c45df81ab"
+    },
+    {
+      "path": "reference_material/STAGE2/CodeOnTheGo_Research_Pack_Stage2/11_SOURCE_MANIFEST.json",
+      "bytes": 957,
+      "sha256": "8c0b68fadc996fbc6d92ea03536ea1df761976ba38e6276735e2ae3112b26566"
+    },
+    {
+      "path": "reference_material/STAGE2/CodeOnTheGo_Research_Pack_Stage2/SOURCES.md",
+      "bytes": 1974,
+      "sha256": "a88849ce72aa434060c68e070eba9a516a43399af1156fe1771bb11ff3b635a5"
+    },
+    {
+      "path": "reference_material/STAGE3/CodeOnTheGo_Research_Pack_Stage3/00_README_STAGE3.md",
+      "bytes": 2696,
+      "sha256": "0918d0ef9245a67fbdbcbc4f8d03392a469d29f45686f20b11121c07592973b2"
+    },
+    {
+      "path": "reference_material/STAGE3/CodeOnTheGo_Research_Pack_Stage3/01_PINNED_SOURCE_INDEX.md",
+      "bytes": 4505,
+      "sha256": "862897d3825f585a5a094c1e8fb1393cdb8fc9d075bf8a022e529ac823169d5d"
+    },
+    {
+      "path": "reference_material/STAGE3/CodeOnTheGo_Research_Pack_Stage3/02_CASE_STUDY_DEEP_LINKS.md",
+      "bytes": 5485,
+      "sha256": "8f50bf9ff95a280535db01b93612d4e60807844ceecfd2c364b1ef1a282e5adf"
+    },
+    {
+      "path": "reference_material/STAGE3/CodeOnTheGo_Research_Pack_Stage3/03_CASE_STUDY_PLUGIN_RUNTIME.md",
+      "bytes": 4590,
+      "sha256": "1b253f8c00539766b7b6f9cac021a25bc7e6d1a0c0eecb71248c3c1356961cfc"
+    },
+    {
+      "path": "reference_material/STAGE3/CodeOnTheGo_Research_Pack_Stage3/04_CASE_STUDY_GRADLE_BUILD_SERVICE.md",
+      "bytes": 3733,
+      "sha256": "0871d76b2e0012c14880ad5b9575da15e595dcdc162f24d8820f56d2a7c7ee8b"
+    },
+    {
+      "path": "reference_material/STAGE3/CodeOnTheGo_Research_Pack_Stage3/05_REGRESSION_TEST_MATRIX.md",
+      "bytes": 2348,
+      "sha256": "9a917c9c6160fa0b786dca13cba1c408b803d6c5e49db9727eb2ebcb9f1ab357"
+    },
+    {
+      "path": "reference_material/STAGE3/CodeOnTheGo_Research_Pack_Stage3/06_VERSION_AND_API_COMPATIBILITY.md",
+      "bytes": 2487,
+      "sha256": "7038d6ca31e0f621b84d62af3a2b0337ce687b4b72d2811ef75fc9ef08d04eba"
+    },
+    {
+      "path": "reference_material/STAGE3/CodeOnTheGo_Research_Pack_Stage3/07_NEXT_RESEARCH_BACKLOG.md",
+      "bytes": 2082,
+      "sha256": "19954ee06c8376497ae682f5bfa8adda5f9e7a4ae4ab020e7f3db97aa2ff7bdc"
+    },
+    {
+      "path": "reference_material/STAGE3/CodeOnTheGo_Research_Pack_Stage3/08_IMPLEMENTATION_DATASET.jsonl",
+      "bytes": 12119,
+      "sha256": "fe16c49bb42c36e1bfade1194fc25a5e0608a0ff47dd3502e456c80eac2a0c63"
+    },
+    {
+      "path": "reference_material/STAGE3/CodeOnTheGo_Research_Pack_Stage3/09_SOURCE_MANIFEST.json",
+      "bytes": 1872,
+      "sha256": "16b3bb0043dd8f8371c635b2bdea0d239debd592a4de309f0e90012c84b168fa"
+    },
+    {
+      "path": "reference_material/STAGE3/CodeOnTheGo_Research_Pack_Stage3/SOURCES.md",
+      "bytes": 2221,
+      "sha256": "855da0047f52bcbe11381542622b4c47bd1b56c5608dd0dd849e35fba03816e8"
+    },
+    {
+      "path": "reference_material/STAGE4/CoGo_App_Development_Knowledge_Stage4_2026-10-13/00_README_STAGE4.md",
+      "bytes": 4853,
+      "sha256": "5df3f7c1bfcc4a0c79c55aa6aabf524f3dbc760ea8209abd41cc175f94e949cc"
+    },
+    {
+      "path": "reference_material/STAGE4/CoGo_App_Development_Knowledge_Stage4_2026-10-13/01_AI_ASSISTANT_PROTOCOL.md",
+      "bytes": 4383,
+      "sha256": "ae31d23d73d677b54ebb3803e50e25979ee41dfcfd5d2bb3c8befa00baa1ebd8"
+    },
+    {
+      "path": "reference_material/STAGE4/CoGo_App_Development_Knowledge_Stage4_2026-10-13/02_PROJECT_CREATION_DECISION_GUIDE.md",
+      "bytes": 5331,
+      "sha256": "a5b440b8f9b9b724e2ba9be713f6161ef0c852b5090a47b82f79da5a0d90a5ef"
+    },
+    {
+      "path": "reference_material/STAGE4/CoGo_App_Development_Knowledge_Stage4_2026-10-13/03_ANDROID_PROJECT_FILE_MAP.md",
+      "bytes": 5076,
+      "sha256": "6a1a06e8f7f68ca8ce79b4580eab9d2d7753af06cdfe0e646f7e0ca424c0a54c"
+    },
+    {
+      "path": "reference_material/STAGE4/CoGo_App_Development_Knowledge_Stage4_2026-10-13/04_BUILD_TOOLCHAIN_COMPATIBILITY.md",
+      "bytes": 4159,
+      "sha256": "5cb9c1f695aa59ed9a41d47ac60f1bf2e335660d0c60703ef17dd33a00bf5da2"
+    },
+    {
+      "path": "reference_material/STAGE4/CoGo_App_Development_Knowledge_Stage4_2026-10-13/05_BUILD_RUN_TASKS_APK.md",
+      "bytes": 4508,
+      "sha256": "b4fd37d9fb14493714e48ccd999bcda26bb3fb475a1d218adb993c3a66eaf7f2"
+    },
+    {
+      "path": "reference_material/STAGE4/CoGo_App_Development_Knowledge_Stage4_2026-10-13/06_UI_XML_VS_COMPOSE.md",
+      "bytes": 3177,
+      "sha256": "058c28f3f741854e1991f4daafb6faca01f6b920c96fc18e541e029e60dc31cf"
+    },
+    {
+      "path": "reference_material/STAGE4/CoGo_App_Development_Knowledge_Stage4_2026-10-13/07_DEBUGGING_AND_ERROR_TRIAGE.md",
+      "bytes": 4574,
+      "sha256": "5183cc65b179df6d531300d02acf065481bec3ad5549a211f8b8aeec86f5e5df"
+    },
+    {
+      "path": "reference_material/STAGE4/CoGo_App_Development_Knowledge_Stage4_2026-10-13/08_FEATURE_IMPLEMENTATION_PLAYBOOK.md",
+      "bytes": 4539,
+      "sha256": "b93ef728fc9620032bdcb97db117b0257a96944344ad2cf41bcf98cfeba81acd"
+    },
+    {
+      "path": "reference_material/STAGE4/CoGo_App_Development_Knowledge_Stage4_2026-10-13/09_RELEASE_SIGNING_AND_DELIVERY.md",
+      "bytes": 2820,
+      "sha256": "e2566b6beac766d94ac890d82cf39cd878d5ae48750ebf03096de9d1592c918e"
+    },
+    {
+      "path": "reference_material/STAGE4/CoGo_App_Development_Knowledge_Stage4_2026-10-13/10_REFERENCE_WORKFLOW_PROMPT.md",
+      "bytes": 2230,
+      "sha256": "87743143288e1c4cf0b5f30aadea089079ac3bcb02fa455d869f80e73ba4c17b"
+    },
+    {
+      "path": "reference_material/STAGE4/CoGo_App_Development_Knowledge_Stage4_2026-10-13/11_REGRESSION_AND_ACCEPTANCE_MATRIX.md",
+      "bytes": 3613,
+      "sha256": "c5926e1d248cafd1dfcbb96cde80ad63d1819cba1f4da07232c4851d1dff1e0d"
+    },
+    {
+      "path": "reference_material/STAGE4/CoGo_App_Development_Knowledge_Stage4_2026-10-13/12_SOURCE_REGISTER.md",
+      "bytes": 5424,
+      "sha256": "9e9c01b558a0a3d6da30c8b95885f6bdfea977c9c6fe038c048ce387b68a4761"
+    },
+    {
+      "path": "reference_material/STAGE4/CoGo_App_Development_Knowledge_Stage4_2026-10-13/13_IMPLEMENTATION_KNOWLEDGE_DATASET.jsonl",
+      "bytes": 27567,
+      "sha256": "e2b7f4af95620da0cf292c11d05addaad4803ff332f184335f9e45c205e1133d"
+    },
+    {
+      "path": "reference_material/STAGE4/CoGo_App_Development_Knowledge_Stage4_2026-10-13/14_RESEARCH_BACKLOG.md",
+      "bytes": 2620,
+      "sha256": "a8806067582adb8f580b28601df17897c2f3d3562a08e3dc8b7a7e90a172dfb1"
+    },
+    {
+      "path": "reference_material/STAGE4/CoGo_App_Development_Knowledge_Stage4_2026-10-13/15_CHANGELOG_AND_SCOPE.md",
+      "bytes": 1460,
+      "sha256": "4394a015e395de811cd7e5ec7b561335b37b014463d958a907cf4fa9e7f6f296"
+    },
+    {
+      "path": "reference_material/STAGE4/CoGo_App_Development_Knowledge_Stage4_2026-10-13/16_PACKAGE_MANIFEST.json",
+      "bytes": 3533,
+      "sha256": "04aeb8be540775db781b2566ad2f612d41b27a753158d7beea57bcbcff52bb0e"
+    },
+    {
+      "path": "reference_material/STAGE4/CoGo_App_Development_Knowledge_Stage4_2026-10-13/17_END_TO_END_EXAMPLE_WEIGHT_CONVERTER.md",
+      "bytes": 4470,
+      "sha256": "1356f8e7f53859aecd0c4a2715bbc4a45f2d1bf652023faaebd5dbefb5eb5eb2"
+    },
+    {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/00_README_STAGE5.md",
+      "bytes": 3582,
+      "sha256": "0addab4e560fe07aea18f861ec16d3800f70d42854fcc586f19f913de1432b00"
+    },
+    {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/01_EVIDENCE_AND_VERSION_POLICY.md",
+      "bytes": 2566,
+      "sha256": "670ddf74c3877d379bd8f2a71b0fce63a589d6cb949f38dc8b714f6ff1e48ff0"
+    },
+    {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/02_GENERAL_CO_GO_WORKFLOW.md",
+      "bytes": 3572,
+      "sha256": "df6a2bdb74f1e170a1c4bf5b12ebc7cce321d6f9ddc66bf00fcf4133ae45e9f6"
+    },
+    {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/03_PROJECT_BLUEPRINTS.md",
+      "bytes": 1171,
+      "sha256": "cfdb3bf2a5431a798d70fb4b2a77e31d7e012750b0a5b01d5b1e0bc601a8731c"
+    },
+    {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/04_BUILD_RUN_QUICKBUILD_AND_APK.md",
+      "bytes": 2395,
+      "sha256": "9d2ff12e641e54c122582ff7efacc2b289cf2308765b5a419942605b09360c84"
+    },
+    {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/05_DEBUGGING_PLAYBOOK.md",
+      "bytes": 3801,
+      "sha256": "0cb62f96116e65978424d4b9c5f4d4c5d6763cee9630a605ad4a1c029af76e82"
+    },
+    {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/06_TOOLCHAIN_MIGRATION.md",
+      "bytes": 1783,
+      "sha256": "6fbe7a88bb585baa4b474545f0201116a26588fdd2a026021fd906dba015cc7c"
+    },
+    {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/07_AI_ASSISTANT_PROTOCOL.md",
+      "bytes": 3011,
+      "sha256": "d5082ff35f884a13f1f0c578b6bc9bf73ee452a4762094c572b24e5e681cebc8"
+    },
+    {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/08_MANUAL_TEST_MATRIX.md",
+      "bytes": 3465,
+      "sha256": "3464d7f6340fa65fbe9488448aea69c9a4a9e0a8250851024d26c94943f897fd"
+    },
+    {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/09_SOURCE_MANIFEST.md",
+      "bytes": 2818,
+      "sha256": "f136b364163d58bba5764e3e2aa80c8a64600a8d78277123b783e4fb9ed98419"
+    },
+    {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/10_STAGE6_BACKLOG.md",
+      "bytes": 2174,
+      "sha256": "aed99271e5792f26bd0e4e2b77b4e9c8f472addefe9d20bb0223fe1d4d9c8548"
+    },
+    {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/11_IMPLEMENTATION_KNOWLEDGE_DATASET.jsonl",
+      "bytes": 25039,
+      "sha256": "e97b6f16aebe654e089da82dfd9bf195a9848e8ba0054cef060918c9d3560304"
+    },
+    {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/12_FILE_MANIFEST.json",
+      "bytes": 4288,
+      "sha256": "7a37d72c4777f572abd8fdf69d3b1e5a203f49d2ba66760325dec37d327a62c8"
+    },
+    {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/evidence/EVIDENCE_LEDGER.md",
+      "bytes": 1514,
+      "sha256": "65ad91d00f4dfc0df19d4661ded51b9c7307f91741e868737effd80725f1841e"
+    },
+    {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/projects/01_Kotlin_XML_UnitConverter/MainActivity.kt",
+      "bytes": 1181,
+      "sha256": "6dee9a26c4246ea5e51380679db6bdd4aae09b92ab82cca16ba45bfe1bfc0045"
+    },
+    {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/projects/01_Kotlin_XML_UnitConverter/README.md",
+      "bytes": 1044,
+      "sha256": "320de5b549fd14033bf9a790968ab444fcda9c6493847a0e178c02ca8cb3a420"
+    },
+    {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/projects/01_Kotlin_XML_UnitConverter/activity_main.xml",
+      "bytes": 1240,
+      "sha256": "dc974c3eccef931e0e64c8d03526b34dac419c079b99f5bbb49360f79c8f6e53"
+    },
+    {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/projects/02_Java_XML_QuickNotes/MainActivity.java",
+      "bytes": 1570,
+      "sha256": "0290de19b940d6d740736765756cfd4682bf0cd9ed50efde60a0bf7fd19d3220"
+    },
+    {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/projects/02_Java_XML_QuickNotes/README.md",
+      "bytes": 967,
+      "sha256": "c228b696e431ea8222e7005ce97a293a66604c5b4724f6ab545e42eed0447aab"
+    },
+    {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/projects/02_Java_XML_QuickNotes/activity_main.xml",
+      "bytes": 1600,
+      "sha256": "5f71b78550345719f4d96dc03ce7cabae581291dea926f3f0b29e755e05328ce"
+    },
+    {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/projects/03_Kotlin_Compose_Counter/MainActivity.kt",
+      "bytes": 2152,
+      "sha256": "6bc03e88779cafec592f485f4dc43ef943dcb180a08a9e5ce84639d0a719086d"
+    },
+    {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/projects/03_Kotlin_Compose_Counter/README.md",
+      "bytes": 944,
+      "sha256": "1e2a3ad6ac3852f02ab9192061838ae086bc42b8e97103a03c674df5261072bb"
+    },
+    {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/tests/05_EVIDENCE_CAPTURE_TEMPLATE.md",
+      "bytes": 1314,
+      "sha256": "a1ddff912be91cd7355efbf1f621418e27ba1a0fdf4e8fa275c24b7ac72e4d5b"
+    },
+    {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/tests/06_BLUEPRINT_FILE_MAP.md",
+      "bytes": 1539,
+      "sha256": "048e1918be58894bf1e794c6ba1749d6004c88909b6b05c17f0e7eb6f215b9cf"
+    },
+    {
+      "path": "reference_material/STAGE5/CoGo_Stage5_EndToEnd_Projects_2026-10-13/tests/07_KNOWLEDGE_QA.md",
+      "bytes": 1327,
+      "sha256": "d24435d819aeff793c26c5d132488f49ee15a1a83ccdf98017d1bb62f69a2228"
+    },
+    {
+      "path": "scripts/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "scripts/update_repository_manifest.py",
+      "bytes": 1872,
+      "sha256": "1e66c8c64f237468bac2d742dca1de6cf23956ef88359cb878eabefe350f08e2"
+    },
+    {
+      "path": "scripts/validate_dataset.py",
+      "bytes": 7118,
+      "sha256": "84465ce1b3ed0dc5a29c1ebf52e555f936e29d7df19fe57172a58789d074d80d"
+    },
+    {
+      "path": "scripts/validate_repository.py",
+      "bytes": 4288,
+      "sha256": "8bec3b95b576d831d46c5912fb77ea383a4bd8fed3c256db5914b911d4cc045c"
+    },
+    {
+      "path": "tests/test_validate_dataset.py",
+      "bytes": 2726,
+      "sha256": "d0afa03435b62ea4494a9111b3de583581b34474f8fe34083832747b239a4bcd"
+    }
+  ],
+  "notes": [
+    "This inventory covers the repository-focused edition and is separate from the historical Stage 7 manifest.",
+    "The research corpus was not revalidated or refreshed merely by regenerating this manifest."
+  ]
+}
